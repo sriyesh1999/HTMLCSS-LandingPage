@@ -23,7 +23,7 @@ section{
 .flex-one{
     flex:1;
 }
-.aligh-center{
+.aligh-center {
     align-items: center;
 }
 .center{
@@ -33,12 +33,11 @@ section{
     justify-content: space-between;
 }
 .btn{
-    padding: 6px 12px;
     cursor: pointer;
-    border:none;
-    border-radius: 3px;
+    border: 0;
+    padding: 6px 12px;
     line-height: 1.4;
-
+    border-radius: 3px;
 }
 .btn-default { color: #ffffff; background-color: #faa541; }
 .btn-primary { color: #ffffff; background-color: #364147; }
