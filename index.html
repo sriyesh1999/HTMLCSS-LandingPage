@@ -9,22 +9,30 @@
 <body>
 
   <!-- NAVIGATION -->
+  <nav>
+    <div>
   <nav class="header-nav">
     <div class="container flex space-between">
       <!-- BRANDING -->
-      <div class="flex align-center brand">
+      <div>
+      <div class="brand flex align-center">
         <a href="#">
-          <img  class="logo" alt="Carved Rock Fitness" src="img/carved-rock-logo.png">
+          <img alt="Carved Rock Fitness" src="img/carved-rock-logo.png">
+          <img class="logo" alt="Carved Rock Fitness" src="img/carved-rock-logo.png">
         </a>
       </div>
       <!-- SEARCH -->
-      <div class="flex flex-one align-center" >
+      <div>
+      <div class="flex flex-one align-center">
         <div>
           <form>
+            <input aria-label="Search" placeholder="What can we help you find?" type="search">
+            <button type="submit">SEARCH</button>
             <input class="search-box" aria-label="Search" placeholder="What can we help you find?" type="search">
             <button class="search-button" type="submit">SEARCH</button>
           </form>
-          <ul class="flex space-between nav-list">
+          <ul>
+          <ul class="nav-list flex space-between">
             <li><a href="#">Clothing</a></li>
             <li><a href="#">Footwear</a></li>
             <li><a href="#">Equipment</a></li>
@@ -33,16 +41,19 @@
           </ul>
         </div>
         <!-- PROFILE -->
-        <div class="flex align-center profile">
-          <div class="flex flex-column account">
+        <div>
+          <div>
             John Doe <a href="#">Log Out</a>
+        <div class="profile flex align-center">
+          <div class="account flex flex-column">
+            John Doe <a class="logout" href="#">Log Out</a>
           </div>
+          <div><img alt="John Doe" src="img/profile-pic.jpg"></div>
           <div class="profile-pic"><img alt="John Doe" src="img/profile-pic.jpg"></div>
         </div>
       </div>
     </div>
   </nav>
-
     <!-- HERO -->
   <section class="hero">
     <div class="container flex flex-column align-center center">
@@ -109,9 +120,9 @@
     </section>
 
     <!-- FULL BANNER -->
-    <section>
-      <div></div>
-      <div class="flex flex-column align-center center">
+    <section class="full-banner">
+      <div class="full-banner-image"></div>
+      <div class="full banner-sidebar flex flex-column align-center center">
         <h4>Trail Review</h4>
         <div>Asphalt</div>
         <div>National Park</div>
