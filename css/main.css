@@ -67,7 +67,7 @@ section{
 .brand{
     height: 170px;
     width: 85px;
-    margin-left: 15px;
+    margin-left: -15px;
     margin-right: 60px;
 
 }
@@ -79,7 +79,7 @@ section{
     height:330px;
     width:30px;
     padding:6px 12px;
-    border:1px #a0a0a0;
+    border:1px solid #a0a0a0;
 
 }
 .search-button{
@@ -115,6 +115,9 @@ section{
     padding: 15px;
     color: #364147;
     font-size: 18px;
+}
+.account a{
+    font-size: 14px;
 }
 .profile-pic{
     height:60px;

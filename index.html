@@ -1,43 +1,45 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Carved Rock Fitness</title>
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
-  <link href="css/main.css" rel="stylesheet">
-</head>
 <body>
 
   <!-- NAVIGATION -->
+  <nav>
+    <div>
   <nav class="header-nav">
     <div class="container flex space-between">
       <!-- BRANDING -->
-      <div class="flex align-center brand">
+      <div>
+      <div class="brand flex align-center">
         <a href="#">
-          <img alt="Carved Rock Fitness" class="logo" src="img/carved-rock-logo.png">
+          <img alt="Carved Rock Fitness" src="img/carved-rock-logo.png">
+          <img class="logo" alt="Carved Rock Fitness" src="img/carved-rock-logo.png">
         </a>
       </div>
       <!-- SEARCH -->
-      <div class="flex flex-one align-center" >
+      <div>
+      <div class="flex flex-one align-center">
         <div>
           <form>
+            <input aria-label="Search" placeholder="What can we help you find?" type="search">
+            <button type="submit">SEARCH</button>
             <input class="search-box" aria-label="Search" placeholder="What can we help you find?" type="search">
-            <button class="" type="submit">SEARCH</button>
+            <button class="search-button" type="submit">SEARCH</button>
           </form>
-          <ul class="flex space-between nav-list">
+          <ul>
+          <ul class="nav-list flex space-between">
             <li><a href="#">Clothing</a></li>
             <li><a href="#">Footwear</a></li>
             <li><a href="#">Equipment</a></li>
-            <li><a href="#">Bags &amp; Travel</a></li>
-            <li><a href="#">Trail Reviews</a></li>
+@@ -33,36 +33,36 @@
           </ul>
         </div>
         <!-- PROFILE -->
-        <div class="flex align-center">
-          <div class="flex flex-column">
+        <div>
+          <div>
+        <div class="profile flex align-center">
+          <div class="account flex flex-column">
             John Doe <a href="#">Log Out</a>
           </div>
           <div><img alt="John Doe" src="img/profile-pic.jpg"></div>
+          <div class="profile-pic"><img alt="John Doe" src="img/profile-pic.jpg"></div>
         </div>
       </div>
     </div>
@@ -45,7 +47,8 @@
 
     <!-- HERO -->
   <section>
-    <div class="container flex flex-column align-center center">
+    <div>
+    <div class="container flex flex-column center align-center">
       <h1>Get A Grip</h1>
       <h2>20% Off</h2>
       <p>Throughout The Season</p>
@@ -53,68 +56,34 @@
   </section>
 
   <!-- MAIN CONTAINER -->
+  <div>
   <div class="container">
 
     <!-- SALE BANNER -->
     <section>
-      <div class="flex align-center center">
+      <div>
+      <div class="flex center align-center">
         <img alt="Brown Boots" src="img/brown-boots.jpg">
         <div>
+          <div>Couples retreat weekend</div>
+          <div>Save an extra 20%</div>
+          <div>when you buy 2 pairs of boots</div>
           <div class="text-light">Couples retreat weekend</div>
           <div class="text-secondary">Save an extra 20%</div>
           <div class="text-primary">when you buy 2 pairs of boots</div>
         </div>
         <img alt="Grey Boots" src="img/grey-boots.jpg">
       </div>
-    </section>
-
-    <!-- CATEGORIES -->
-    <section>
-      <div>
-        <a href="#">
-          <img alt="Splash Chic" src="img/category-1.jpg" />
-          <div>
-            <h3>Splash Chic</h3>
-            <div>Women's Wet Gear</div>
-          </div>
-        </a>
-      </div>
-      <div>
-        <a href="#">
-          <img alt="Kid Klimbers" src="img/category-2.jpg" />
-          <div>
-            <h3>Kid Klimbers</h3>
-            <div>Children's Gear</div>
-          </div>
-        </a>
-      </div>
-      <div>
-        <a href="#">
-          <img alt="Pack It In" src="img/category-3.jpg" />
-          <div>
-            <h3>Pack It In</h3>
-            <div>Camping Gear</div>
-          </div>
-        </a>
-      </div>
-      <div>
-        <a href="#">
-          <img alt="Nature's AC" src="img/category-4.jpg" />
-          <div>
-            <h3>Nature's AC</h3>
-            <div>Men's Shorts</div>
-          </div>
-        </a>
-      </div>
-    </section>
-
+@@ -111,21 +111,21 @@ <h3>Nature's AC</h3>
     <!-- FULL BANNER -->
     <section>
       <div></div>
-      <div class="flex flex-column align-center center">
+      <div>
+      <div class="flex flex-column center align-center">
         <h4>Trail Review</h4>
         <div>Asphalt</div>
         <div>National Park</div>
+        <a href="#">See Review</a>
         <a class="btn btn-default" href="#">See Review</a>
       </div>
     </section>
@@ -123,31 +92,28 @@
 
   <!-- FOOTER -->
   <footer>
-    <section class="container space-between"">
+    <section>
+    <section class="container space-between">
       <div>
+        <div>Customer Support</div>
         <div class="text-primary">Customer Support</div>
         <ul>
           <li><a href="#">Contact Us</a></li>
           <li><a href="#">Order Tracker</a></li>
-          <li><a href="#">Returns &amp; Refunds</a></li>
-          <li><a href="#">Size Guide</a></li>
-          <li><a href="#">Store Locator</a></li>
-          <li><a href="#">Site Map</a></li>
+@@ -136,7 +136,7 @@ <h4>Trail Review</h4>
         </ul>
       </div>
       <div>
+        <div>Company Info</div>
         <div class="text-primary">Company Info</div>
         <ul>
           <li><a href="#">About Us</a></li>
           <li><a href="#">Careers</a></li>
-          <li><a href="#">Press</a></li>
-          <li><a href="#">Sustainability</a></li>
-          <li><a href="#">Affiliates</a></li>
-          <li><a href="#">Students</a></li>
-          <li><a href="#">Mobile Apps</a></li>
+@@ -148,15 +148,15 @@ <h4>Trail Review</h4>
         </ul>
       </div>
       <div>
+        <div>Privacy &amp; Terms</div>
         <div class="text-primary">Privacy &amp; Terms</div>
         <ul>
           <li><a href="#">Privacy &amp; Security</a></li>
@@ -156,16 +122,17 @@
         </ul>
       </div>
       <div>
-        <div  class="text-primary">Follow Us</div>
+        <div>Follow Us</div>
+        <div class="text-primary">Follow Us</div>
         <ul>
           <li><a href="#"></a></li>
           <li><a href="#"></a></li>
-          <li><a href="#"></a></li>
-          <li><a href="#"></a></li>
-        </ul>
+@@ -166,21 +166,21 @@ <h4>Trail Review</h4>
         <div>
           <div>Email Updates</div>
           <div>Exclusive sales, special offers, and more.</div>
+          <input type="text" placeholder="Enter email address" />
+          <button>Sign up</button>
           <input type="text" class="form-control" placeholder="Enter email address" />
           <button class="btn btn-primary">Sign up</button>
         </div>
@@ -174,13 +141,15 @@
 
     <!-- PS DEMO -->
     <section>
-      <div class="flex flex-column align-center">
+      <div>
+      <div class="align-center flex flex-column">
         <img src="img/pluralsight-white.png" />
         <div>This site is created for demonstrative purposes only and does not offer any real products or services.</div>
       </div>
     </section>
 
-    <div  class="text-primary">&copy;Pluralsight 2018</div>
+    <div>&copy;Pluralsight 2018</div>
+    <div class="text-primary">&copy;Pluralsight 2018</div>
   </footer>
 </body>
-</html>
+</html> 
